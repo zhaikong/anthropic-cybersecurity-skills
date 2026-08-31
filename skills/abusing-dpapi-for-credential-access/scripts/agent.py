@@ -13,6 +13,11 @@ This is an operator helper: it builds and runs the real tool commands and
 parses their output; it does not reimplement DPAPI cryptography.
 """
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import os
 import shutil
